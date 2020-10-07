@@ -59,5 +59,21 @@ nav{
 }
 
 .hero__image{
-    max-width: 100%;
+    background-image: url('../images/skillTree.gif');
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:800px){
+    #hero{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hero__image{
+        height: 400px;
+    }
 }
