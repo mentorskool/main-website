@@ -18,6 +18,13 @@ body{
     width: auto;
 }
 
+
+@media screen and (max-width:800px){
+    .navbar-brand img{
+        height: 40px;
+    }
+}
+
 nav{
     display: flex;
     justify-content: space-between;
