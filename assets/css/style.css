@@ -2,17 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    --background-color : #f4f4f4;
+    --background-color : #eaebee;
     --color : #161616;
-    width: 100%;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
     background-color: var(--background-color);
     color: var(--color);
-    height: 100%;
-    width: 100%;
 }
 
 .navbar-brand img{
