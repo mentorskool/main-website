@@ -4,6 +4,7 @@
     padding: 0;
     --background-color : #eaebee;
     --color : #161616;
+    box-sizing: border-box;
 }
 
 body{
@@ -41,7 +42,7 @@ nav{
 }
 
 .hero__heading{
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .hero__tagline{
