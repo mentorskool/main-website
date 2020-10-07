@@ -59,12 +59,7 @@ nav{
 }
 
 .hero__image{
-    background-image: url('../images/skillTree.gif');
-    height: 60vh;
     width: 100%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 
@@ -72,8 +67,7 @@ nav{
     #hero{
         padding-left: 10px;
         padding-right: 10px;
-    }
-    .hero__image{
-        height: 400px;
+        padding-top: 60px;
+        height: auto;
     }
 }
