@@ -6,6 +6,7 @@
     --bgAlt : #f4f4f4;
     --color : #161616;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
@@ -47,6 +48,7 @@ nav{
 
 .hero__container{
     height: 100%;
+    margin: auto;
 }
 
 .hero__heading{
@@ -56,13 +58,15 @@ nav{
 .hero__tagline{
     font-size: 1.2rem;
     letter-spacing: 1px;
-    font-weight: 300;
 }
 
 .hero__image{
     width: 100%;
 }
 
+hr{
+    width: 20%;
+}
 
 #features{
     margin: 20px auto;
@@ -75,7 +79,7 @@ nav{
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 60px;
-        height: auto;
+        min-height: 70vh;
     }
 }
 
