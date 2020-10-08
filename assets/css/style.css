@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     --background-color : #eaebee;
+    --bgAlt : #f4f4f4;
     --color : #161616;
     box-sizing: border-box;
 }
@@ -63,6 +64,12 @@ nav{
 }
 
 
+#features{
+    margin: 20px auto;
+    padding-top: 50px;
+    background-color: var(--bgAlt);
+}
+
 @media screen and (max-width:800px){
     #hero{
         padding-left: 10px;
@@ -70,4 +77,17 @@ nav{
         padding-top: 60px;
         height: auto;
     }
+}
+
+@media screen and (min-width:800px){
+    #features{
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+}
+
+#features  i{
+    font-size: 5rem;
+    color: var(--color);
 }
