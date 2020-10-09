@@ -95,3 +95,18 @@ hr{
     font-size: 5rem;
     color: var(--color);
 }
+
+
+
+
+/* footer */
+
+footer{
+    background-color: var(--color);
+    color: var(--background-color);
+    line-height: 2;
+}
+
+.socials i {
+    font-size: 1.4rem;
+}
