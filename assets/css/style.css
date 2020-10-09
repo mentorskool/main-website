@@ -9,6 +9,10 @@
     max-width: 100%;
 }
 
+.light{
+    font-weight: 300;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
     background-color: var(--background-color);
@@ -109,4 +113,8 @@ footer{
 
 .socials i {
     font-size: 1.4rem;
+}
+
+footer .light{
+    color: grey
 }
